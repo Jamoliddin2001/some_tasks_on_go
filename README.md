@@ -1,2 +1,2 @@
-# some_tasks_on_go
+## Some tasks for learning
 Some tasks on golang
