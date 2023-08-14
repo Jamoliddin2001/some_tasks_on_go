@@ -31,7 +31,7 @@ func multiply(x, y int) (z int) {
 }
 
 // recursion
-func factorial(n uint) uint {
+func factorial(n int) int {
 
 	if n == 0 {
 		return 1
