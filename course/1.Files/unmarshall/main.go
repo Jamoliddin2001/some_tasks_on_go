@@ -29,7 +29,7 @@ func printUser(u *User) {
 }
 
 func main() {
-	jsonFile, err := os.Open("/home/jamoliddin/GolandProjects/lesson1/course/lec1/unmarshall/users.json")
+	jsonFile, err := os.Open("/home/jamoliddin/GolandProjects/lesson1/course/1.Files/unmarshall/users.json")
 	if err != nil {
 		log.Fatal(err)
 	}

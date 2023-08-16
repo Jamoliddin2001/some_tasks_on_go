@@ -21,7 +21,7 @@ type University struct {
 
 func main() {
 	prof1 := Professor{
-		Name:      "Bob",
+		Name:      "V. Borisenko",
 		ScienceID: 1,
 		IsWorking: true,
 		University: University{
@@ -30,14 +30,14 @@ func main() {
 		},
 	}
 
-	byteArr, err := json.MarshalIndent(prof1, "", "    ")
+	byteArr, err := json.MarshalIndent(prof1, "", "	")
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	fmt.Println(string(byteArr))
 
-	err = os.WriteFile("./course/lec1/murshal/output.json", byteArr, 777)
+	err = os.WriteFile("./course/1.Files/murshal/output.json", byteArr, 0777)
 	if err != nil {
 		log.Fatal(err)
 	}
