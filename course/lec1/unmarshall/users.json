@@ -12,9 +12,11 @@
       {
           "name": "Golang",
           "age": 14,
-          "friends" : {
-              "name": "Jamoliddin"
-          }
+          "friends" : [
+              {
+                "name": "Jamoliddin"
+              }
+          ]
       }
   ]
 }
