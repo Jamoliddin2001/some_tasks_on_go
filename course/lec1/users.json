@@ -1,0 +1,18 @@
+{
+  "users": [
+      {
+          "name": "Jamoliddin",
+          "age": 22,
+          "friends" : {
+              "name": "Golang"
+          }
+      },
+      {
+          "name": "Golang",
+          "age": 14,
+          "friends" : {
+              "name": "Jamoliddin"
+          }
+      }
+  ]
+}
