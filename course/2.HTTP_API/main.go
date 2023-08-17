@@ -7,7 +7,7 @@ import (
 )
 
 func GetGreet(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, from GO!")
+	fmt.Fprintf(w, "Hello, World!")
 }
 
 func RequestHandler() {
