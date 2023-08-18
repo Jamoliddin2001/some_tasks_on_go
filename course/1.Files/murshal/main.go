@@ -21,7 +21,7 @@ type University struct {
 
 func main() {
 	prof1 := Professor{
-		Name:      "V. Borisenko",
+		Name:      "Akhmedov Rajabali",
 		ScienceID: 1,
 		IsWorking: true,
 		University: University{
