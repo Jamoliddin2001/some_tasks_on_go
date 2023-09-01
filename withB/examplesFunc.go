@@ -1,6 +1,6 @@
 package main
 
-func perimetr(a) {
+func perimetr(a float64, b float64) {
 
 }
 
